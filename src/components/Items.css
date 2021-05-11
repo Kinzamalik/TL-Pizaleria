@@ -1,0 +1,48 @@
+.itemCard {
+  height: 39px;
+  border: 1px solid #aca8a8;
+  width: 40%;
+}
+
+img{
+  width: 50px;
+  height: 30px;
+}
+
+
+.p-3{
+  position: relative;
+  top: 40%;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
+
+}
+
+/* .itemTitle {
+  height: 2em;
+  text-align: center;
+  top: 60%;
+}
+
+.img-fit {
+  object-fit: fill;
+  width: 100%;
+  margin: -21.875% 0;
+}
+
+.description {
+  height: 2em;
+}
+
+.special {
+  height: 1em;
+} */

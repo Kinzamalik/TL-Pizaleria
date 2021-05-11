@@ -1,0 +1,37 @@
+.paymentType-container{
+  background-color: black;
+  margin-bottom: 0 !important;
+  min-height: 95vh;
+  /* margin-left: 0px !important;
+  margin-right: 0px !important; */
+}
+.paymentType-type-btn{
+  width: 100%;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.paymentType-billing-heading{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}
+.paymentType-type-billing{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.paymentType-billing-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.paymentType-confirm-btn{
+    background-color: #f00;
+    color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+
+}

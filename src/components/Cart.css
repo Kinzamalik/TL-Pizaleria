@@ -1,0 +1,110 @@
+.cart-container{
+    background-color: black;
+    margin-bottom: 0 !important;
+    min-height: 95vh;
+    /* margin-left: 0px !important;
+    margin-right: 0px !important; */
+  }
+  .cart-type-btn{
+    width: 100%;
+    background-color: #f00;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .cart-billing-heading{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+  }
+  .cart-type-billing{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .cart-billing-button{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .cart-confirm-btn{
+      background-color: #f00;
+      color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  
+  }
+  .cart-items-cont{
+      display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* min-height: 80vh; */
+    }
+  .cart-item{
+    height: 200px;
+    width: 150px;
+    margin: 5px;
+  }
+  .cart-item-imgCont{
+    height: 40%;
+    position: relative;
+}
+.cart-item-img{
+    height: 100%;
+    width: 100%;
+  }
+  .cart-item-removeBtn{
+      background-color: #f00;
+      position: absolute;
+      top: 0;
+      right: 0;
+      border: none;
+  }
+  .cart-item-detail{
+      height: 40%;
+  }
+  .cart-item-actions{
+      height: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .cart-item-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #f00;
+    height: 100%;
+
+  }
+  .cart-item-quantity{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+  }
+  .cart-item-less{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: gray;
+    height: 100%;
+  }
+  .cart-item-halfTop{
+    height: 50%;
+    background-color: grey;
+    font-size: 14px;
+    padding: 10px;
+}
+  .cart-item-halfBottom{
+    height: 50%;
+    background-color: grey;
+    color: #f00;
+    display: flex;
+    align-items: flex-end;
+  }

@@ -1,0 +1,82 @@
+.orderPreview-container{
+  background-color: black;
+  margin-bottom: 0 !important;
+  min-height: 95vh;
+  /* margin-left: 0px !important;
+  margin-right: 0px !important; */
+}
+.orderPreview-deliveryDetails{
+  color: #f00;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.orderPreview-heading{
+  color: #f00;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  /* padding-bottom: 10px;
+  margin-bottom: 20px; */
+}
+
+.orderPreview-paymentHeading{
+  color: #f00;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.orderPreview-restaurantDetails{
+  color: #f00;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.orderPreview-confirm-btn{
+    background-color: #f00;
+    color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+
+}
+.orderPreview-itemContainer{
+
+}
+.orderPreview-itemDetails{
+  display: flex;
+  flex-direction: row;
+}
+.orderPreview-itemSubTotal{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+}
+.orderPreview-itemSubTotal p{
+  margin-bottom: 0px;
+}
+.orderPreview-itemName{
+  flex: 1;
+  font-size: 12px;
+  color:#fff;
+}
+.orderPreview-itemPrice{
+  font-size: 12px;
+  color:#fff;
+
+}
+.orderPreview-deliveryDetailItem{
+  font-size: 12px;
+  color: #fff;
+  margin: 0px !important;
+}
+.orderPreview-restaurantDetailItem{
+  font-size: 12px;
+  color: #fff;
+  margin: 0px !important;
+}
+.orderPreview-billing-button{
+  margin-top: 40px;
+}

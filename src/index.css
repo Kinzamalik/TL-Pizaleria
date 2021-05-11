@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: rgb(230, 228, 228);
+}
+
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  /* height: 40px; */
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0px;
+  z-index: 99999;
+  position: fixed;
+  top: 10%;
+  left: 20px;
+  display: flex;
+  opacity: 0.8;
+  }
+
+  .search_input{
+  color: #000;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 60%;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  margin-left: 10px;
+  }
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:orange;
+  text-decoration:none;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  }
+  .sticky-top-nav{
+    position: fixed;
+    top: 0;
+    z-index: 1020;
+    width: 100%;
+  }
+  .cart-badge{
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    width: 100%;
+  }
+  @media (max-width: 992px){
+    .navbar .container {
+      width: 100%;
+      margin: 0 !important;
+      padding: 0 !important;
+      }
+  }
+.card-cont{
+  height: 300px;
+width: 340px;
+}
+  .card-img{
+    height: 300px;
+    width: 100%;
+  }
+  .card-category-cont{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 999999;
+    margin-top: -35px;
+    width: 340px;
+    height: 40px;
+    display: flex;
+    flex: row;
+    align-items: center;
+    padding-right: 10px;
+  }
+  .card-cat-name{
+    flex: 1;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .card-item{
+    height: 250px;
+  width: 340px;
+  }
+    .card-item-img{
+      height: 200px;
+      width: 100%;
+    }
+    .card-item-cont{
+      background-color: black;
+      /* position: absolute;
+      z-index: 999999;
+      margin-top: -58px; */
+      width: 340px;
+      height: 65px;
+      display: flex;
+      flex: row;
+      align-items: center;
+      padding-right: 10px;
+    }
+    .card-item-name-cont{
+      flex: 1;
+      font-size: 12px;
+      color: #fff;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    .card-item-price{
+      color: #f00;
+      font-size: 14px;
+      margin-left: 10px;
+    }
+    .card-item-name{
+      flex: 1;
+      font-size: 12px;
+      color: #fff;
+      padding-left: 10px;
+      padding-top: 10px;
+    }
+    .add-to-cart{
+      background-color: #f00;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      border: 1px solid transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }

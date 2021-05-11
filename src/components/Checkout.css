@@ -1,0 +1,100 @@
+.checkout-container{
+    background-color: black;
+    margin-bottom: 0 !important;
+}
+.checkout-type-btn{
+    width: 50%;
+    background-color: grey;
+    color: #fff;
+    padding: 5px;
+}
+.checkout-billing-heading{
+    color: #f00;
+    font-size: 14px;
+    padding: 10px;
+}
+.checkout-billing-name,.checkout-billing-number,.checkout-billing-email{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.checkout-billing-textarea{
+    border: 1px solid white !important;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.checkout-billing-checkbox{
+    background-color: #f00;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+}
+.checkout-billing-checkbox input{
+    margin-right: 10px;
+}
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+  }
+  
+  .radio-item input[type='radio'] {
+    display: none;
+  }
+  
+  .radio-item label {
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .radio-item label:before {
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    margin: 0 5px 0 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+    border: 2px solid #f00;
+    background-color: transparent;
+  }
+  
+  .radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    content: " ";
+    display: block;
+    background: #fff;
+  }
+  .checkout-billing-button{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .checkout-confirm-btn{
+      background-color: #f00;
+      color: #fff;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+
+  }
+  .red-active{
+      color: #fff;
+      background-color: #f00;
+  }
